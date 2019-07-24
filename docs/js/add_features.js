@@ -1,6 +1,6 @@
 var url = [
-  "https://raw.githubusercontent.com/Edinburgh-College-of-Art/sample-data-sets/master/geojson/edinburgh_campus/buildings/lauriston_campus.json?token=AH5DFIDUMLBLN44URBZEO5C5IF5PS",
-  "https://raw.githubusercontent.com/Edinburgh-College-of-Art/sample-data-sets/master/geojson/edinburgh_campus/fascilities/workshops.json?token=AH5DFIFUDOX26CYMPXR7DNC5IF72C"
+  "https://raw.githubusercontent.com/Edinburgh-College-of-Art/sample-data-sets/master/geojson/edinburgh_campus/buildings/lauriston_campus.json",
+  "https://raw.githubusercontent.com/Edinburgh-College-of-Art/sample-data-sets/master/geojson/edinburgh_campus/fascilities/workshops.json"
 ];
 
 var colors = ['#595', '#C33', '#358', '#449']
