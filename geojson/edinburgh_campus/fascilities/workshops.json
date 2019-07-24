@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Wood Workshop",
+        "room": "",
+        "notes": "access via Main Building",
+        "building": "Main Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.200022876262665,
+          55.94564329531209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Metal Workshop",
+        "room": "",
+        "notes": "access via Main Building",
+        "building": "Main Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.200076520442962,
+          55.94576345361831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Print Workshop",
+        "room": "",
+        "notes": "",
+        "building": "Main Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1994247436523438,
+          55.945922662799795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "CAD-CAM workshop",
+        "room": "",
+        "building": "Main Building",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.200159668922424,
+          55.94574242594165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Reprographics",
+        "room": "",
+        "building": "North-East Studio",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978476047515865,
+          55.945994757308156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Design Informatics Workshop",
+        "room": "",
+        "building": "Informatics Forum",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.187054395675659,
+          55.94536092182495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "uCreate Studio",
+        "room": "",
+        "building": "Main Library",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.18878173828125,
+          55.94259114933017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Model Workshop",
+        "room": "",
+        "building": "Hunter Building",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978046894073486,
+          55.94563728738699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "name": "Model Workshop",
+        "room": "",
+        "building": "Minto House",
+        "notes": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1890204548835754,
+          55.947834623819304
+        ]
+      }
+    }
+  ]
+}
