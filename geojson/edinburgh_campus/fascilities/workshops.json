@@ -10,6 +10,7 @@
         "name": "Wood Workshop",
         "room": "",
         "notes": "access via Main Building",
+        "link": "https://www.eca.ed.ac.uk/facility/wood-workshop",
         "building": "Main Building"
       },
       "geometry": {
@@ -29,6 +30,7 @@
         "name": "Metal Workshop",
         "room": "",
         "notes": "access via Main Building",
+        "link": "https://www.eca.ed.ac.uk/facility/metal-workshop",
         "building": "Main Building"
       },
       "geometry": {
@@ -42,9 +44,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Print Workshop",
+        "name": "Printmaking Suite",
         "room": "",
         "notes": "",
+        "link": "https://www.eca.ed.ac.uk/facility/printmaking-suite",
         "building": "Main Building"
       },
       "geometry": {
@@ -63,6 +66,7 @@
         "marker-symbol": "",
         "name": "CAD-CAM workshop",
         "room": "",
+        "link": "https://www.eca.ed.ac.uk/facility/digital-fabrication",
         "building": "Main Building",
         "notes": "-"
       },
@@ -79,6 +83,7 @@
       "properties": {
         "name": "Reprographics",
         "room": "",
+        "link": "https://www.eca.ed.ac.uk/facility/reprographics",
         "building": "North-East Studio",
         "notes": "-"
       },
@@ -95,6 +100,7 @@
       "properties": {
         "name": "Design Informatics Workshop",
         "room": "",
+        "link": "https://www.eca.ed.ac.uk/profile/mark-kobine",
         "building": "Informatics Forum",
         "notes": "-"
       },
@@ -111,6 +117,7 @@
       "properties": {
         "name": "uCreate Studio",
         "room": "",
+        "link": "https://www.ucreatestudio.is.ed.ac.uk/",
         "building": "Main Library",
         "notes": "-"
       },
@@ -127,6 +134,7 @@
       "properties": {
         "name": "Model Workshop",
         "room": "",
+        "link": "https://www.eca.ed.ac.uk/facility/model-workshops",
         "building": "Hunter Building",
         "notes": "-"
       },
@@ -143,6 +151,7 @@
       "properties": {
       "name": "Model Workshop",
         "room": "",
+        "link": "https://www.eca.ed.ac.uk/facility/model-workshops",
         "building": "Minto House",
         "notes": "-"
       },
