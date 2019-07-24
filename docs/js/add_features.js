@@ -29,7 +29,7 @@ for (var i = 0; i < url.length; i++)
 
 function addPoint(feature)
 {
-  var popup = new mapboxgl.Popup().setHTML('<h3>' + feature.properties.name + '</h3>');
+  var popup = new mapboxgl.Popup().setHTML('<h3><a href="'+ feature.properties.link + '" target="_blank">' + feature.properties.name + '</a></h3>');
   var marker = new mapboxgl.Marker()
     .setLngLat(feature.geometry.coordinates)
     .setPopup(popup)
