@@ -1,6 +1,7 @@
   {
     "type": "FeatureCollection",
-    "features": [{
+    "features": [
+      {
         "type": "Feature",
         "id": 0,
         "properties": {
@@ -9,7 +10,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Main Building",
+          "name": "Main Building"
         },
         "geometry": {
           "type": "Polygon",
@@ -124,7 +125,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "North-East Studio",
+          "name": "North-East Studio"
         },
         "geometry": {
           "type": "Polygon",
@@ -255,7 +256,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Fire Station",
+          "name": "Fire Station"
         },
         "geometry": {
           "type": "Polygon",
@@ -315,14 +316,14 @@
       },
       {
         "type": "Feature",
+        "id": 3,
         "properties": {
           "stroke": "#555555",
           "stroke-width": 2,
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Records Building",
-          "id": 3
+          "name": "Records Building"
         },
         "geometry": {
           "type": "Polygon",
@@ -373,7 +374,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Hunter",
+          "name": "Hunter Building"
         },
         "geometry": {
           "type": "Polygon",
@@ -480,7 +481,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Evolution House",
+          "name": "Evolution House"
         },
         "geometry": {
           "type": "Polygon",
@@ -527,7 +528,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Main Building Workshops",
+          "name": "Main Building Workshops"
         },
         "geometry": {
           "type": "Polygon",
@@ -570,7 +571,7 @@
           "stroke-opacity": 1,
           "fill": "#555555",
           "fill-opacity": 0.5,
-          "name": "Wee Red Bar",
+          "name": "Wee Red Bar"
         },
         "geometry": {
           "type": "Polygon",
