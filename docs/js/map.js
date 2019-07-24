@@ -15,7 +15,7 @@ var map = new mapboxgl.Map({
     // hash: false,
     container: 'map'
 });
-// map.addControl(new mapboxgl.FullscreenControl());
+map.addControl(new mapboxgl.FullscreenControl());
 // var geocoder = new MapboxGeocoder(
 // {
 //   accessToken: mapboxgl.accessToken,
