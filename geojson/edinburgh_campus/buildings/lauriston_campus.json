@@ -10,8 +10,8 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "name": "Main Building",
-        "id": 0
       },
+      "id": 0
       "geometry": {
         "type": "Polygon",
         "coordinates": [
