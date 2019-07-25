@@ -8,7 +8,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Wood Workshop",
-        "room": "",
+        "room": "A 01 ",
         "notes": "access via Main Building",
         "link": "https://www.eca.ed.ac.uk/facility/wood-workshop",
         "building": "Main Building"
@@ -16,8 +16,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.200022876262665,
-          55.94564329531209
+          -3.2,
+          55.9457
         ]
       }
     },
@@ -28,7 +28,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Metal Workshop",
-        "room": "",
+        "room": "A 07",
         "notes": "access via Main Building",
         "link": "https://www.eca.ed.ac.uk/facility/metal-workshop",
         "building": "Main Building"
@@ -36,16 +36,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.200076520442962,
-          55.94576345361831
+          -3.2001,
+          55.9458
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "Printmaking Suite",
-        "room": "",
+        "room": "B12 - 22",
         "notes": "",
         "link": "https://www.eca.ed.ac.uk/facility/printmaking-suite",
         "building": "Main Building"
@@ -53,8 +56,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1994247436523438,
-          55.945922662799795
+          -3.1994,
+          55.9459
         ]
       }
     },
@@ -65,7 +68,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "CAD-CAM workshop",
-        "room": "",
+        "room": "B 12",
         "link": "https://www.eca.ed.ac.uk/facility/digital-fabrication",
         "building": "Main Building",
         "notes": "-"
@@ -73,25 +76,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.200159668922424,
-          55.94574242594165
+          -3.2002,
+          55.9457
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "Reprographics",
-        "room": "",
+        "room": "K 7",
         "link": "https://www.eca.ed.ac.uk/facility/reprographics",
         "building": "North-East Studio",
-        "notes": "-"
+        "notes": "Mon-Thu, 8.30am - 5pm; Fri, 8.30am - 4pm  (Outside of semester: Mon - Fri, 8.30am - 3.30pm)"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1978476047515865,
-          55.945994757308156
+          -3.1978,
+          55.946
         ]
       }
     },
@@ -107,16 +113,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.187054395675659,
-          55.94536092182495
+          -3.1871,
+          55.9454
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "uCreate Studio",
-        "room": "",
+        "room": 1.12,
         "link": "https://www.ucreatestudio.is.ed.ac.uk/",
         "building": "Main Library",
         "notes": "-"
@@ -124,14 +133,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.18878173828125,
-          55.94259114933017
+          -3.1888,
+          55.9426
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "Model Workshop",
         "room": "",
         "link": "https://www.eca.ed.ac.uk/facility/model-workshops",
@@ -141,15 +153,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1978046894073486,
-          55.94563728738699
+          -3.1979,
+          55.9455
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-      "name": "Model Workshop",
+        "name": "Model Workshop",
         "room": "",
         "link": "https://www.eca.ed.ac.uk/facility/model-workshops",
         "building": "Minto House",
@@ -158,8 +170,148 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1890204548835754,
-          55.947834623819304
+          -3.189,
+          55.9478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Photography",
+        "room": "B 53 - 63",
+        "building": "Main Building",
+        "notes": "",
+        "link": "https://www.eca.ed.ac.uk/facility/photography-suite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1983,
+          55.9461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Foundry / Casting",
+        "room": "C11",
+        "building": "Main Building",
+        "notes": "",
+        "link": "https://www.eca.ed.ac.uk/facility/foundry-and-casting-room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1996,
+          55.9458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Dark Room",
+        "room": "N 11",
+        "building": "Hunter Building",
+        "notes": "",
+        "link": "https://www.eca.ed.ac.uk/facility/photography-suite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1979,
+          55.9456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Performance Costume Workshop",
+        "room": "Q21",
+        "building": "Hunter Building",
+        "link": "https://www.eca.ed.ac.uk/facility/performance-costume-workshops",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978,
+          55.9453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Textile Workshop",
+        "room": "P 10 - 11",
+        "building": "Hunter Building",
+        "link": "https://www.eca.ed.ac.uk/facility/textiles-workshops",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978,
+          55.9452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Glass Workshop",
+        "room": "R 10 - 15",
+        "building": "Hunter Building",
+        "link": "https://www.eca.ed.ac.uk/facility/glass-workshops",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978,
+          55.9452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Jewellery Workshop",
+        "room": "P 18 - 19",
+        "building": "Hunter Building",
+        "link": "https://www.eca.ed.ac.uk/facility/jewellery-and-silversmithing-workshops",
+        "notes": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1978,
+          55.9454
         ]
       }
     }
