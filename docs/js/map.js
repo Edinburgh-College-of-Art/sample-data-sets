@@ -75,11 +75,7 @@ map.on('load', function()
   // }
   //----------------------------------------------------------------------------
   // Search Bar
-  search_element.addEventListener('keyup', function(e)
-  {
-
-  });
-
+  
   //----------------------------------------------------------------------------
   // Mouse Functions
   map.on('moveend', function()
@@ -87,19 +83,7 @@ map.on('load', function()
     var features = map.queryRenderedFeatures(
     {
       layers: ['workshops']
-    });  
+    });
   });
 
-  map.on('mousedown', function()
-  {
-
-  });
-
-  map.on('mouseup', function()
-  {
-    for (marker of markers)
-    {
-      marker.addTo(map);
-    }
-  });
 });
