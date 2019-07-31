@@ -5,8 +5,10 @@
 function autocomplete(inp, arr)
 {
   var currentFocus;
+
   inp.addEventListener("input", function(e)
   {
+
     var a, b, i, val = this.value;
     closeAllLists(); /*close any already open lists of autocompleted values*/
     if (!val)
@@ -51,7 +53,8 @@ function autocomplete(inp, arr)
   {
     var x = document.getElementById(this.id + "autocomplete-list");
     if (x) x = x.getElementsByTagName("div");
-    if (e.keyCode == 40)
+    if(!x){ return; }
+    if (e.keyCode == 40) // if down
     {
       /*If the arrow DOWN key is pressed,
       increase the currentFocus variable:*/
@@ -59,7 +62,7 @@ function autocomplete(inp, arr)
       /*and and make the current item more visible:*/
       addActive(x);
     }
-    else if (e.keyCode == 38)
+    else if (e.keyCode == 38) // up
     { //up
       /*If the arrow UP key is pressed,
       decrease the currentFocus variable:*/
@@ -67,14 +70,24 @@ function autocomplete(inp, arr)
       /*and and make the current item more visible:*/
       addActive(x);
     }
-    else if (e.keyCode == 13)
+    else if (e.keyCode == 13) // enter
     {
       /*If the ENTER key is pressed, prevent the form from being submitted,*/
       e.preventDefault();
       if (currentFocus > -1)
       {
         /*and simulate a click on the "active" item:*/
+        clearMarkers();
+        filterMarkers(x[currentFocus].textContent);
         if (x) x[currentFocus].click();
+      }
+      if (currentFocus == -1)
+      {
+        clearMarkers();
+        for (result of x)
+        {
+          filterMarkers(result.textContent);
+        }
       }
     }
   });

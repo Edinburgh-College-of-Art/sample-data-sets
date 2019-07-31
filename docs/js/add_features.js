@@ -8,6 +8,7 @@ function addFeatures()
     "https://raw.githubusercontent.com/Edinburgh-College-of-Art/sample-data-sets/master/geojson/edinburgh_campus/fascilities/workshops.json"
   ];
 
+  addBuildings(url[0]);
   addWorkshops(url[1]);
 }
 //==============================================================================
@@ -28,6 +29,7 @@ function addWorkshops(url)
 {
   $.getJSON(url, function(json)
   {
+    workshops_json = json;
     map.addLayer(
     {
       "id": "workshops",
@@ -47,6 +49,7 @@ function addWorkshops(url)
       }
     });
 
+    var workshop_names = [];
     json.features.forEach(function(feature)
     {
       var popup = new mapboxgl.Popup().setHTML(makeDetails(feature));
@@ -55,9 +58,14 @@ function addWorkshops(url)
         .setPopup(popup)
         .addTo(map);
       markers.push(marker)
+      workshop_names.push(feature.properties.name);
     });
 
-    console.log(markers);
+    function onlyUnique(value, index, self)
+    {
+      return self.indexOf(value) === index;
+    }
+    autocomplete(document.getElementById('search_input'), workshop_names.filter(onlyUnique));
   })
 };
 //==============================================================================
@@ -84,4 +92,30 @@ function addPolygon(feature, i)
     });
   }
 };
+
+function addBuildings(url)
+{
+  $.getJSON(url, function(json)
+  {
+    console.log(json);
+    map.addLayer(
+    {
+      'id': 'buildings',
+      'type': 'fill',
+      'source':
+      {
+        'type': 'geojson',
+        'data': json
+      },
+      'layout':
+      {},
+      'paint':
+      {
+        'fill-color': colors[3],
+        'fill-opacity': 0.5
+      }
+    });
+
+  });
+}
 //==============================================================================
