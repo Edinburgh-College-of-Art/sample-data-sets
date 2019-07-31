@@ -96,8 +96,7 @@ function addPolygon(feature, i)
 function addBuildings(url)
 {
   $.getJSON(url, function(json)
-  {
-    console.log(json);
+  {    
     map.addLayer(
     {
       'id': 'buildings',

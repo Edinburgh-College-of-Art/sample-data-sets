@@ -8,13 +8,13 @@ function autocomplete(inp, arr)
 
   inp.addEventListener("input", function(e)
   {
-
     var a, b, i, val = this.value;
     closeAllLists(); /*close any already open lists of autocompleted values*/
     if (!val)
     {
       return false;
     }
+    clearMarkers();
     currentFocus = -1;
     /*create a DIV element that will contain the items (values):*/
     a = document.createElement("DIV");
@@ -28,6 +28,7 @@ function autocomplete(inp, arr)
       /*check if the item starts with the same letters as the text field value:*/
       if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase())
       {
+        filterMarkers(arr[i])
         /*create a DIV element for each matching element:*/
         b = document.createElement("DIV");
         /*make the matching letters bold:*/
@@ -51,14 +52,9 @@ function autocomplete(inp, arr)
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e)
   {
-    console.log(e.keyCode);
     var x = document.getElementById(this.id + "autocomplete-list");
     if (x) x = x.getElementsByTagName("div");
     if(!x){ return; }
-    for (div of x)
-    {
-        div.addEventListener("click", function(){ alert("Hello World!"); });
-    }
 
     if (e.keyCode == 40) // if down
     {
