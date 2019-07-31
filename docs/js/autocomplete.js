@@ -51,9 +51,15 @@ function autocomplete(inp, arr)
   /*execute a function presses a key on the keyboard:*/
   inp.addEventListener("keydown", function(e)
   {
+    console.log(e.keyCode);
     var x = document.getElementById(this.id + "autocomplete-list");
     if (x) x = x.getElementsByTagName("div");
     if(!x){ return; }
+    for (div of x)
+    {
+        div.addEventListener("click", function(){ alert("Hello World!"); });
+    }
+
     if (e.keyCode == 40) // if down
     {
       /*If the arrow DOWN key is pressed,
