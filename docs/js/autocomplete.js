@@ -12,6 +12,7 @@ function autocomplete(inp, arr)
     closeAllLists(); /*close any already open lists of autocompleted values*/
     if (!val)
     {
+      fillMarkers()
       return false;
     }
     clearMarkers();
